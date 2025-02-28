@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Dev Board</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <!-- DaisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+        .grad{
+            background-image: linear-gradient(to right, #3752FD, #9BA8F8) ;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f4f7ff] poppins">
+    <section class="mx-auto max-w-screen-2xl pt-4 pb-4">
+        <nav>
+            <div class="navbar bg-base-100 rounded-2xl">
+                <div class="flex-1">
+                    <a class="btn btn-ghost text-4xl"><img src="./assets/logo.png" alt=""><span
+                            class="font-light">Dev</span><span class="font-extrabold">Board</span></a>
+                </div>
+                <div class="flex-none">
+                    <ul class="menu menu-horizontal px-1 gap-2">
+                        <button class="btn rounded-full"><img src="./assets/checkbox.png" alt=""><span
+                                class="font-bold text-3xl" id="total-counter">0</span></button>
+                        <button class="btn rounded-full"><img src="./assets/theme-btn.png" alt=""></button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <section class="rounded-2xl bg-white ">
+            <section>
+                <section class="p-6 flex gap-2">
+                    <div class="p flex items-center gap-5 bg-[#f4f7ff] p-4 rounded-xl">
+                        <div class="p-4 rounded-full bg-white"><img src="./assets/checkbox.png" alt=""></div>
+                        <div>
+                            <ul>Task Assigned</ul>
+                            <ul><span class="text-3xl font-bold">00</span></ul>
+                        </div>
+                    </div>
+                    <div class="p flex items-center gap-5 p-4 rounded-xl grad grow">
+                        <div><img src="./assets/board.png" alt=""></div>
+                        <div class="font-medium text-2xl text-white"> Discover Something <br>New Today
+                        </div>
+                    </div>
+                    <div class="p flex items-center gap-5 bg-[#f4f7ff] p-4 rounded-xl">
+                        <div class="p-4 rounded-full bg-white"><img src="./assets/calender.png" alt=""></div>
+                        <div>
+                            <ul>WED</ul>
+                            <ul><span class="text-xl font-bold">July 28 2025</span></ul>
+                        </div>
+                    </div>
+                
+                </section>
+                <section class="">
+
+                </section>
+            </section>
+            <section>
+
+            </section>
+        </section>
+    </section>
+
+</body>
+
+</html>
