@@ -48,7 +48,7 @@
             </div>
         </nav>
         <br>
-        <section class="rounded-2xl bg-white flex">
+        <section class="rounded-2xl bg-white flex gap-8">
             <section>
                 <section class="p-6 flex gap-2">
                     <div class="p flex items-center gap-5 bg-[#f4f7ff] p-4 rounded-xl">
@@ -65,10 +65,7 @@
                     </div>
                     <div class="p flex items-center gap-5 bg-[#f4f7ff] p-4 rounded-xl">
                         <div class="p-4 rounded-full bg-white"><img src="./assets/calender.png" alt=""></div>
-                        <div>
-                            <ul>WED</ul>
-                            <ul><span class="text-xl font-bold">July 28 2025</span></ul>
-                        </div>
+                        <div id="dateShow" class="text-xl font-semibold"></div>
                     </div>
 
                 </section>
@@ -152,7 +149,7 @@
                     </div>
                 </section>
             </section>
-            <section class="p-3 max-h-screen grow">
+            <section id="activityLog" class="p-3 max-h-screen max-w-64">
                 
                     <div class="flex  justify-center items-center"><img class="p-2" src="./assets/activity.png" alt="">
                         <h1 class="text-xl font-medium ">Activity Log</h1>
@@ -167,6 +164,7 @@
     </section>
     <script src="./js/about.js"></script>
     <script src="./js/cardAction.js"></script>
+    <script src="./js/date.js"></script>
 </body>
 
 </html>
