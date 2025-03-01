@@ -10,7 +10,7 @@ document.getElementById("card-btn1").addEventListener("click", function(){
     document.getElementById("total-counter").innerText=updatedFinalTask;
     alert("Board Updated Successfully!");
     if(convertedTask<=1){
-        alert("Task Finished");
+        alert("Congratulations! You have completed All taskes..");
     }
     let currentTime = new Date().toLocaleTimeString();
     let title = document.getElementById("card1").innerText;
@@ -35,7 +35,7 @@ document.getElementById("card-btn2").addEventListener("click", function(){
     document.getElementById("total-counter").innerText=updatedFinalTask;
     alert("Board Updated Successfully!");
     if(convertedTask<=1){
-        alert("Task Finished");
+        alert("Congratulations! You have completed All taskes..");
     }
     currentTime = new Date().toLocaleTimeString();
     title = document.getElementById("card2").innerText;
@@ -60,7 +60,7 @@ document.getElementById("card-btn3").addEventListener("click", function(){
     document.getElementById("total-counter").innerText=updatedFinalTask;
     alert("Board Updated Successfully!");
     if(convertedTask<=1){
-        alert("Task Finished");
+        alert("Congratulations! You have completed All taskes..");
     }
     currentTime = new Date().toLocaleTimeString();
     title = document.getElementById("card3").innerText;
@@ -85,7 +85,7 @@ document.getElementById("card-btn4").addEventListener("click", function(){
     document.getElementById("total-counter").innerText=updatedFinalTask;
     alert("Board Updated Successfully!");
     if(convertedTask<=1){
-        alert("Task Finished");
+        alert("Congratulations! You have completed All taskes..");
     }
     currentTime = new Date().toLocaleTimeString();
     title = document.getElementById("card4").innerText;
@@ -111,7 +111,7 @@ document.getElementById("card-btn5").addEventListener("click", function(){
     document.getElementById("total-counter").innerText=updatedFinalTask;
     alert("Board Updated Successfully!");
     if(convertedTask<=1){
-        alert("Task Finished");
+        alert("Congratulations! You have completed All taskes..");
     }
     currentTime = new Date().toLocaleTimeString();
     title = document.getElementById("card5").innerText;
@@ -137,7 +137,7 @@ document.getElementById("card-btn6").addEventListener("click", function(){
     document.getElementById("total-counter").innerText=updatedFinalTask;
     alert("Board Updated Successfully!");
     if(convertedTask<=1){
-        alert("Task Finished");
+        alert("Congratulations! You have completed All taskes..");
     }
     currentTime = new Date().toLocaleTimeString();
     title = document.getElementById("card6").innerText;
