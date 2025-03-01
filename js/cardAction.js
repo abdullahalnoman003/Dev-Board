@@ -16,7 +16,7 @@ document.getElementById("card-btn1").addEventListener("click", function(){
     let title = document.getElementById("card1").innerText;
     let activityTask = document.getElementById("activityLog");
     let section = document.createElement("section");
-    section.className="act"
+    section.className="act card rounded-xl p-2 bg-[#f4f7ff] mt-3"
     let p = document.createElement("p");
     p.innerText= `You have completed the task ${title} at ${currentTime} \n`;
     section.appendChild(p);
@@ -41,7 +41,7 @@ document.getElementById("card-btn2").addEventListener("click", function(){
     title = document.getElementById("card2").innerText;
     activityTask = document.getElementById("activityLog");
     section = document.createElement("section");
-    section.className="act"
+    section.className="act card rounded-xl p-2 bg-[#f4f7ff] mt-3"
     p = document.createElement("p");
     p.innerText= `You have completed the task ${title} at ${currentTime} \n`;
     section.appendChild(p);
@@ -66,7 +66,7 @@ document.getElementById("card-btn3").addEventListener("click", function(){
     title = document.getElementById("card3").innerText;
     activityTask = document.getElementById("activityLog");
     section = document.createElement("section");
-    section.className="act"
+    section.className="act card rounded-xl p-2 bg-[#f4f7ff] mt-3"
     p = document.createElement("p");
     p.innerText= `You have completed the task ${title} at ${currentTime} \n`;
     section.appendChild(p);
@@ -92,7 +92,7 @@ document.getElementById("card-btn4").addEventListener("click", function(){
     activityTask = document.getElementById("activityLog");
     
     section = document.createElement("section");
-    section.className="act"
+    section.className="act card rounded-xl p-2 bg-[#f4f7ff] mt-3"
     p = document.createElement("p");
     p.innerText= `You have completed the task ${title} at ${currentTime} \n`;
     section.appendChild(p);
@@ -118,7 +118,7 @@ document.getElementById("card-btn5").addEventListener("click", function(){
     activityTask = document.getElementById("activityLog");
 
     section = document.createElement("section");
-    section.className="act"
+    section.className="act card rounded-xl p-2 bg-[#f4f7ff] mt-3"
     p = document.createElement("p");
     p.innerText= `You have completed the task ${title} at ${currentTime} \n`;
     section.appendChild(p);
@@ -143,7 +143,7 @@ document.getElementById("card-btn6").addEventListener("click", function(){
     title = document.getElementById("card6").innerText;
     activityTask = document.getElementById("activityLog");
     section = document.createElement("section");
-    section.className="act"
+    section.className="act card rounded-xl p-2 bg-[#f4f7ff] mt-3"
     p = document.createElement("p");
     p.innerText= `You have completed the task ${title} at ${currentTime} \n`;
     section.appendChild(p);
